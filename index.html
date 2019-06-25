@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Shiqing Xue, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Cover Template · Bootstrap</title>
+    <title>Cloud-OS · GAEA</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.2/examples/cover/">
 
@@ -30,43 +30,51 @@
     <link href="cover.css" rel="stylesheet">
 </head>
 <body class="text-center">
+<script>
+    function navClick() {
+
+    }
+</script>
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
         <div class="inner">
             <h3 class="masthead-brand">Cloud-OS</h3>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link"  href="Blog.html">Blog</a>
+                <a class="nav-link" href="Contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <main role="main" class="inner cover">
-        <h1 class="cover-heading">Cover your page.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <h1 class="cover-heading">多粒度资源管理与调度</h1>
+        <!--p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p-->
+        <p>研究可配置的计算、存储及网络的软硬件功能划分及面向节点硬件能力的多粒度资源池化与管理技术；研究混合负载调度及优化方法，大规模请求的高效处理技术；实现不同类型任务的统一处理和服务的削峰填谷，提高共享资源的聚合能力和利用率，满足海量、突发、动态的负载资源需求变化。</p>
         <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary">View on GitLAB</a>
+            <a href="http://gitlab.act.buaa.edu.cn/gaea/CloudOS-main/wikis/home" class="btn btn-lg btn-secondary">View on GitLAB</a>
         </p>
     </main>
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-main">
             <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"/><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg-->
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <h2>资源超售</h2>
+            <!--p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p-->
+            <p>设计了基于Apache Hadoop Yarn的基于资源超售技术的面向异构负载的分布式调度器，结合调度层候选机器筛选机制，实现了资源超售技术来管理非保障性任务，解决由于资源预留和预估不准确导致的物理资源利用率低下的问题</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-main">
             <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"/><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg-->
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <h2>关键路径避让</h2>
+            <!--p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</--p-->
+            <p>设计面向混合调度的关键组件分析方法。该方法综合考虑时间、访问频次和错误率等因素，通过信息采集、生成DAG关系图、计算关键组件等步骤分析系统中那些对用户体验影响最大的关键组件，准确发现潜在的性能隐患。</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-main">
             <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"/><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg-->
-            <h2>Heading</h2>
+            <h2>细粒度资源隔离</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -79,5 +87,13 @@
         </div>
     </footer>
 </div>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
