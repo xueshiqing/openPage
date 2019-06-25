@@ -40,9 +40,13 @@ body {
 }
 
 .cover-container {
-    max-width: 42em;
+    max-width: 50em;
 }
 
+
+.row {
+    margin-top: 60px;
+}
 
 /*
  * Header
@@ -91,6 +95,7 @@ body {
  * Cover
  */
 .cover {
+    margin-top: 100px;
     padding: 0 1.5rem;
 }
 .cover .btn-lg {
