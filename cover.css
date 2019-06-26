@@ -27,10 +27,8 @@ a:hover {
 html,
 body {
     height: 100%;
-    background: linear-gradient(120deg, #159957, #4c1391), linear-gradient(70deg,#000000, #0097fe);
-    background-size: 100%  445px,100% 200%;
-    background-repeat: no-repeat,repeat-y;
-    background-position: top,0 445px;
+    background: linear-gradient(120deg, #159957, #4c1391);
+    background-repeat: no-repeat;
     /* background-color: #333; */
 
 }
